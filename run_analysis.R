@@ -72,5 +72,5 @@ test_df<-tbl_df(newtest)%>%group_by(subject_id,activity_name)
 ##Create tidy data with average of each column grouped by subject_id and activity_name
 final_test<-summarize_each(test_df,funs(mean(.,na.rm=TRUE)))
 final_train<-summarize_each(train_df,funs(mean(.,na.rm=TRUE)))
-write.table(final_test,"./tidy_test.txt")
-write.table(final_train,"./tidy_train.txt")
+final_file<-rbind(final_test,final_train)
+write.table(final_file,"./tidy_data.txt",row.name=FALSE)

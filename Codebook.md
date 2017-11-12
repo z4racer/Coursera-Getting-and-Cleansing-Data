@@ -28,5 +28,5 @@ Created/manipulated
 	⁃	test_df - Converted newtest  from a data frame to a tbl_df and grouped by subject_id and activity_name
 	⁃	
 Output files
-	⁃	tidy_test.txt - A tidy data set with summary of averages for each feature grouped by subject_id and activity_name
-	⁃	tidy_train.txt - A tidy data set with summary of averages for each feature grouped by subject_id and activity_name
+	⁃	tidy_data.txt - A tidy data set with summary of averages for each feature grouped by subject_id and activity_name
+	

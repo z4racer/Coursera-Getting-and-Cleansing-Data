@@ -29,9 +29,9 @@ A tidy dataset with related merged data is processed for each train and test dat
 	⁃	Replaced activity id with activity name in the data frame
 	⁃	Created tbl_df data types from the data frames and applied group_by for:
 	⁃	subject_id and activity_name
-	⁃	The output results in two files written:
-	⁃	tidy_test.txt - mean summary for each column grouped by subject_id and activity_name
-	⁃	tidy_train.txt - mean summary for each column grouped by subject_id and activity_name
+	⁃	The output results in the following file written:
+	⁃	tidy_data.txt - mean summary for each column grouped by subject_id and activity_name
+	⁃	
 	⁃	
 	⁃	
 	⁃		
